@@ -3,7 +3,7 @@ Title: Installing a Module
 description:
 weight: $weight
 alwaysopen: false
-categories: ["RS"]
+categories: ["Modules"]
 ---
 Before you can install a module, it must be packaged to be used in Redis
 Enterprise Software (RS). There are two types
@@ -12,10 +12,10 @@ Enterprise Software (RS). There are two types
     the [Redis Enterprise downloads
     page](https://redislabs.com/redis-enterprise/software/downloads/#tabTwo). For more specific
     information on each module:
-    1. [RedisBloom]({{< relref "/rs/developing/modules/bloom-filters.md" >}})
+    1. [RedisBloom]({{< relref "/modules/redisbloom/_index.md" >}})
     1. [RedisGraph](https://oss.redislabs.com/redisgraph/#quickstart)
-    1. [RedisJSON]({{< relref "/rs/developing/modules/redisjson.md" >}})
-    1. [RediSearch Enterprise]({{< relref "/rs/developing/modules/redisearch.md" >}})
+    1. [RedisJSON]({{< relref "/modules/redisjson/_index.md" >}})
+    1. [RediSearch Enterprise]({{< relref "/modules/redisearch/_index.md" >}})
 1. Custom packaged modules - For instructions on packing up any module
     from redismodules.com, see [Developing with
     Modules]({{< relref "/rs/developing/modules/_index.md" >}}).
@@ -38,7 +38,7 @@ the next step of adding the module to Redis Enterprise Software.
 ### Create a new database that uses the Module
 
 Note: Before you create a new DB with modules,
-we recommend that you [upgrade the currently installed modules]({{< relref "/rs/developing/modules/upgrading.md" >}})
+we recommend that you [upgrade the currently installed modules]({{< relref "/modules/upgrading.md" >}})
 to the newest versions.
 
 1. Go to **databases**.
