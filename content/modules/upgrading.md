@@ -4,6 +4,7 @@ description:
 weight: $weight
 alwaysopen: false
 categories: ["Modules"]
+aliases: /rs/developing/modules/upgrading/
 ---
 As modules are upgraded, you will need to load them into Redis
 Enterprise if you desire having the new features and/or

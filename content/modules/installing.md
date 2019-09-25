@@ -4,6 +4,7 @@ description:
 weight: $weight
 alwaysopen: false
 categories: ["Modules"]
+aliases: /rs/developing/modules/installing/
 ---
 Before you can install a module, it must be packaged to be used in Redis
 Enterprise Software (RS). There are two types
